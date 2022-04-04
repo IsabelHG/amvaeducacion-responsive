@@ -99,8 +99,6 @@
    */
 
   let backtotop = select('.back-to-top')
-  let form = select('.inscription-form')
-  let positionForm = form.offsetTop;
 
   if (backtotop) {
     const toggleBacktotop = () => {
@@ -112,12 +110,6 @@
     }
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
-  }
-
-  backtotop.onclick = function() {
-
-    window.scroll(0,positionForm);
-  
   }
 
   /**
