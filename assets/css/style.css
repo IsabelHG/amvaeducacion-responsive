@@ -1198,13 +1198,32 @@ section {
   display: flex;
   align-items: center;
 }
-.blog-sinopsis, .blog-sinopsis-2, .blog-sinopsis-3, .blog-sinopsis-4, .blog-sinopsis-5, .blog-sinopsis-6, .blog-sinopsis-7, .blog-sinopsis-8, .blog-sinopsis-9{
+.blog-sinopsis, .blog-sinopsis-2, .blog-sinopsis-3, .blog-sinopsis-4, .blog-sinopsis-5, .blog-sinopsis-6, .blog-sinopsis-7, .blog-sinopsis-8, .blog-sinopsis-9, .blog-sinopsis-10, .blog-sinopsis-11, .blog-sinopsis-12{
   position: relative;
 }
 .blog-sinopsis:hover .content-sinopsis, .blog-sinopsis-2:hover .content-sinopsis, .blog-sinopsis-3:hover .content-sinopsis, .blog-sinopsis-4:hover .content-sinopsis, .blog-sinopsis-5:hover .content-sinopsis, .blog-sinopsis-6:hover .content-sinopsis, .blog-sinopsis-7:hover .content-sinopsis, .blog-sinopsis-8:hover .content-sinopsis, .blog-sinopsis-9:hover .content-sinopsis{
   visibility:visible;
   opacity: .8;
   transition: opacity .5s;
+}
+
+.comming-soon{
+  position: absolute;
+  background-color: #7db928;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.comming-soon p{
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 8px 0;
 }
 
 /* Newsletter Section
@@ -1477,7 +1496,3 @@ section {
 /*--------------------------------------------------------------
 # Responsive Form
 --------------------------------------------------------------*/
-
-.inscription-form{
-  max-width: 100%;
-}
