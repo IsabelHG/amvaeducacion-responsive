@@ -1503,3 +1503,22 @@ section {
 .inscription-form{
   max-width: 100%;
 }
+
+/*--------------------------------------------------------------
+# Carousel Banner
+--------------------------------------------------------------*/
+
+.carousel-banner{
+  margin-top: 50px;
+}
+
+.carousel-banner img{
+  width: 100%;
+}
+
+@media (min-width:767px) {
+  .carousel-banner button span:first-child{
+    width: 3rem;
+    height: 3rem;
+  }
+}
