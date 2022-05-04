@@ -4,6 +4,11 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+function turnArrow (){
+  
+}
+
 (function() {
   "use strict";
 
