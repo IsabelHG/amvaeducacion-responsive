@@ -5,9 +5,21 @@
 * License: https://bootstrapmade.com/license/
 */
 
-function turnArrow (){
-  
+function rotateArrow(id) {
+  if (id.style.transform == "rotate(180deg)"){
+    id.style.transform = "rotate(0deg)";
+    id.style.webkitTransform = "rotate(0deg)";
+    id.style.OTransform = "rotate(0deg)";
+    id.style.MozTransform = "rotate(0deg)";
+  }else{
+    id.style.transform = "rotate(180deg)";
+    id.style.webkitTransform = "rotate(180deg)";
+    id.style.OTransform = "rotate(180deg)";
+    id.style.MozTransform = "rotate(180deg)";
+  }
 }
+
+/*****************************************************************************************/
 
 (function() {
   "use strict";
